@@ -1,0 +1,28 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-with, initial-scale=1, shrink-to-fit=no')
+    link(href='/css/main.css', rel='stylesheet')
+    title Change User
+  body
+    form(action='/change/success', method='post', name='changeuser')
+        h1 Change User
+        hr
+        h2 ID : 
+            = id
+        label Password : 
+        input(type='password', name='password', required='')
+        br
+        br
+        label Email : 
+        input(type='email', name='email', required='')
+        br
+        br
+        hr
+        br
+        input(type='submit', value='Submit')
+        br
+        br
+    a(href='/login/success')
+        |  Back

@@ -1,0 +1,27 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-with, initial-scale=1, shrink-to-fit=no')
+    link(href='/css/main.css', rel='stylesheet')
+    title Login
+  body
+    h1 Login
+    hr
+    br
+    form(action='/login/success', method='post')
+      label ID : 
+      input(type='text', placeholder='ID', name='id', required='', autofocus='')
+      br
+      br
+      label Password : 
+      input(type='password', placeholder='Password', name='password')
+      br
+      br
+      hr
+      br
+      button(type='submit') Login
+    p
+      a(href='/signup') Sign up
+
+

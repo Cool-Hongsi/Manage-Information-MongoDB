@@ -1,0 +1,30 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-with, initial-scale=1, shrink-to-fit=no')
+    link(href='/css/main.css', rel='stylesheet')
+    title Sign Up
+  body
+    h1 Sign Up
+    hr
+    br
+    form(action='/signup/success', method='post', name='signup')
+      label ID : 
+      input(type='text', name='id', required='', autofocus='')
+      br
+      br
+      label Password : 
+      input(type='password', name='password', required='')
+      br
+      br
+      label Email : 
+      input(type='email', name='email', required='')
+      br
+      br
+      hr
+      br
+      input(type='submit', value='Submit')
+      br
+      br
+    a(href='/') Back

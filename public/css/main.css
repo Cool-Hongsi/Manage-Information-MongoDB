@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Gaegu|Merienda");
+
+*{
+  font-family: 'Gaegu', cursive;
+}
+
+a{
+  text-decoration: none;
+  color:#f06540;
+}
+
+a:hover{
+  color:black;
+  transition:color 1s;
+}
+
+button, input[type=submit]{
+  width:60px;
+  height:30px;
+  border:1px solid white;
+  border-radius: 10px;
+  color:white;
+  background-color: black;
+}
+
+button:hover, input[type=submit]:hover{
+  color:black;
+  background-color:gray;
+  transition:color, background-color, 1s;
+}

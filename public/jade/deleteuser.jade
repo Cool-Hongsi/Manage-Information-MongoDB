@@ -1,0 +1,20 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-with, initial-scale=1, shrink-to-fit=no')
+    link(href='/css/main.css', rel='stylesheet')
+    title Delete User
+  body
+    h1 Delete User
+    hr
+    h2 ID : 
+        = id
+    p   Are you sure to delete your account?
+    br
+    a(href='/login/success')
+        button(type='button', value='back') Back
+    br
+    br
+    a(href='/accountdelsuccess')
+        button(type='button', value='del') Delete
