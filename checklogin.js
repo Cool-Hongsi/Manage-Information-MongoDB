@@ -35,7 +35,7 @@ module.exports.registerUser = (userData) => {
                     newUser.save((err) => {
                         if(err){
                             if(err.code == 11000){
-                                reject("User Name already taken");
+                                reject("ID is already taken");
                             }
                             else{
                                 reject("There was an error creating the user: ");
