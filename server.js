@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const clientSessions = require('client-sessions');
 const checklogin = require('./checklogin.js');
 const alert = require('alert-node');
-// a
+
 app.use(express.static('./public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
